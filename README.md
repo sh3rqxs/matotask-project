@@ -12,7 +12,7 @@
 <li><a href="#features">Features</a></li>
 <li><a href="#tech-stack">Tech Stack</a></li>
 <li><a href="#usage">Usage</a></li>
-<li><a href="#acknowledgements">Acknowledgements</a></li>
+<li><a href="#final-thoughts">Final Thoughts</a></li>
 <li><a href="#license">License</a></li>
 </ul>
 </nav>
@@ -68,12 +68,12 @@
 </ol>
 </section>
 
-<section id="acknowledgements">
-<h2>💖 Acknowledgements</h2>
+<section id="final-thoughts">
+<h2>💭 Final Thoughts</h2>
 
 <p>I want to give a huge thank you to the team at <a href="https://www.codedex.io/home" target="_blank">Codédex</a> for the incredible JavaScript course. This project is the culmination of everything I’ve learned from basic variables to complex DOM manipulation.</p>
 
-<p>Building MatoTask has been an amazing journey, and I’m so grateful to everyone who supported me through my first full web application. This is just the beginning! (˶ᵔᗜᵔ˶)ﾉﾞ💕</p>
+<p>Building MatoTask has been an amazing journey, and I’m so grateful to everyone who supported me through my first full web application. This is just the beginning! (˶ᵔᗜᵔ˶)ﾉﾞ💖</p>
 </section>
 
 <section id="license">
