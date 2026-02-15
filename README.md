@@ -45,22 +45,18 @@
 <h2>🚀 Usage</h2>
 
 <h3>⏲️ Using the Pomodoro Timer</h3>
-
 <ol>
 <li><b>Set your time: </b>Enter your desired focus duration (between 1 and 60 minutes) in the timer input.</li><br>
-
 <p><b>Note: </b>The Pomodoro Technique suggests 25-minute intervals for peak focus, but MatoTask gives you the flexibility to choose what works best for you!</p>
-
 <li><b>Control the flow: </b>Use the button bar to manage your session:</li>
 </ol>
 <ul>
 <li>▶️ <b>Start: </b>Begins the countdown.</li>
-<li><b>⏸️ Stop: </b>Pauses the timer if you need a quick break.</li>
+<li>⏸️ <b>Stop: </b>Pauses the timer if you need a quick break.</li>
 <li>🔄️ <b>Reset: </b>Returns the timer to its original state.</li>
 </ul>
 
 <h3>📝 Managing Your Tasks</h3>
-
 <ol>
 <li><b>Add a Task: </b>Locate the task form and type in your goal (e.g., "Finish my homework 📚").</li>
 <li><b>Submit: </b>Press enter or click the add task button to see it appear on your list.</li>
