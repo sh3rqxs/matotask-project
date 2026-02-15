@@ -1,0 +1,168 @@
+/* Codédex - JavaScript Course */
+/* Final Project: Pomodoro/To-do list app */
+/* styles.css */
+
+body {
+    font-family: "Verdana", sans-serif;
+    color: rgb(31, 41, 55);
+    background-color: rgb(240, 190, 198);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgb(255, 255, 255, 0.55);
+    width: 450px;
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(147, 24, 57);
+    animation: pulse 2s infinite ease-in-out;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+        text-shadow: 0 0 10px rgba(255, 99, 71, 0.3);
+    }
+}
+
+#random-tagline {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    -webkit-text-stroke: 1px rgb(31, 41, 55);
+}
+
+.timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#timer-display {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 65px;
+    margin: 20px 0;
+}
+
+button {
+    
+    margin: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(103, 30, 48);
+    border: 0;
+    border-radius: 12px;
+    transition: all 0.2s ease-in-out
+}
+
+button:hover {
+    transform: translateY(-2px); 
+    filter: brightness(1.1);      
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1); 
+}
+
+button:active {
+    transform: translateY(0);    
+    filter: brightness(0.9);      
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#set-button {
+    color: white;
+    background-color: rgb(216, 156, 166); 
+}
+
+#minutes-input { 
+    width: 80px;
+    padding: 10px;
+    border: 1px solid rgb(203, 208, 213);
+    border-radius: 6px;
+    font-family: "Verdana", sans-serif;
+}
+
+.button-group {
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 6px;
+    padding: 4px 8px;
+}
+
+#start-button {
+    color: white;
+    background-color: rgb(80, 185, 89);
+}
+
+#stop-button {
+    color: white;
+    background-color: rgb(175, 63, 91);
+}
+
+#reset-button {
+    color: white;
+    background-color: rgb(147, 150, 161);
+}
+
+#task-form {
+    margin-top: 20px;
+    display: flex;
+}
+
+#task-input {
+    flex: 1;
+    padding: 10px;
+}
+
+form input {
+    width: 80px;
+    padding: 10px;
+    border: 1px solid rgb(203, 208, 213);
+    border-radius: 6px;
+    font-family: "Verdana", sans-serif;
+}
+
+#submit-button {
+    font-weight: bold;
+    color: white;
+    background-color: rgb(46, 94, 39);
+    border: 0;
+    border-radius: 12px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-style: italic;
+    padding: 10px;
+    background: none;
+    margin: 10px 0;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#credits {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-style: italic;
+}

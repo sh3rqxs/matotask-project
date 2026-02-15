@@ -1,0 +1,70 @@
+<!-- Codédex - JavaScript Course -->
+<!-- Final Project: Pomodoro/To-do list app -->
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en"> <!-- Tells which language the content of the page is written in. -->
+
+    <!-- Head section -->
+    <head>
+        <meta charset="UTF-8"> <!-- Enables the website to handle a large range of characters. -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes the website look good on movile devices. -->
+        <title>MatoTask 🍅 | Web App</title> <!-- Webpage name tag that appears in the browser tab. -->
+        <link href="styles.css" rel="stylesheet" /> <!-- Links to the styles.css -->
+    </head>
+
+    <!-- Body section -->
+    <body>
+
+        <!-- Main section -->
+        <main>
+
+        <!-- Heading 1 -->
+        <h1><i>MatoTask</i> 🍅</h1> <!-- Website's title -->
+        <p id="random-tagline">Loading...</p> <!-- Displays a random tagline. -->
+        <div class="container"> <!-- Wraps content and control its layout on a container. -->
+            
+            <div class="timer"> <!-- Displays time -->
+        
+                <!-- Timer -->
+                <div id="timer-display"><span >00:00</span></div> <!-- Targets 00:00 for styling and scripting. -->
+    
+                <!-- Timer settings -->
+                 <div class="config">
+                    <input type="number" id="minutes-input" placeholder="Min ⏰" min="1" max="60" /> <!-- Allows the user to input the timer minutes. -->
+                    <button id="set-button">Set Time</button> <!-- Displays a set time button. -->
+                 </div>
+                 <br>
+
+                <!-- Buttons -->
+                <div class="button-group">
+                    <button id="start-button">Start</button> <!-- Displays a start button. -->
+                    <button id="stop-button">Stop</button> <!-- Displays a stop button. -->
+                    <button id="reset-button">Reset</button> <!-- Displays a reset button. -->
+                </div>
+            </div>
+            
+            <!-- Task list form -->
+            <div class="task-group">
+                <form id="task-form"> <!-- Displays a form with a submit button. -->
+                    <input type="text" id="task-input" placeholder="Add a new task 📝" required /> <!-- Allows the user to input a task. -->
+                    <button type="submit" id="submit-button">Add Task</button> <!-- Displays an add task button -->
+                </form>
+                
+            </div>
+            
+            <!-- Task list -->
+            <ul id="task-list"></ul> <!-- Displays unordered task list. -->
+
+            <br>
+
+            <!-- Credits -->
+            <p id="credits">Made with 💖 by shercodes</i></p> <!-- Displays the autor credits. -->
+            
+        </div>
+            
+        <script src="script.js"></script> <!-- Links to the script.js -->
+            
+        </main>
+    </body>
+</html>
