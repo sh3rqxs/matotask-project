@@ -51,9 +51,9 @@
 <li><b>Control the flow: </b>Use the button bar to manage your session:</li>
 </ol>
 <ul>
-<li>▶️ <b>Start: </b>Begins the countdown.</li>
-<li>⏸️ <b>Stop: </b>Pauses the timer if you need a quick break.</li>
-<li>🔄️ <b>Reset: </b>Returns the timer to its original state.</li>
+<li><b>Start: </b>Begins the countdown.</li>
+<li><b>Stop: </b>Pauses the timer if you need a quick break.</li>
+<li><b>Reset: </b>Returns the timer to its original state.</li>
 </ul>
 
 <h3>📝 Managing Your Tasks</h3>
@@ -69,11 +69,11 @@
 
 <p>I want to give a huge thank you to the team at <a href="https://www.codedex.io/home" target="_blank">Codédex</a> for the incredible JavaScript course. This project is the culmination of everything I’ve learned from basic variables to complex DOM manipulation.</p>
 
-<p>Building MatoTask has been an amazing journey, and I’m so grateful to everyone who supported me through my first full web application. This is just the beginning! (˶ᵔᗜᵔ˶)ﾉﾞ💖</p>
+<p>Building MatoTask has been an amazing journey, and I’m planning to keep working on future implementations to this application such as an eye-catching and responsive UI, a dark mode and many more features. This is just the beginning! (˶ᵔᗜᵔ˶)ﾉﾞ💖</p>
 </section>
 
 <section id="license">
 <h2>📄 License</h2>
 
-<p>This project is licensed under the MIT License.</p>
+<p>This project is licensed under the MIT License. ⚖️</p>
 </section>
