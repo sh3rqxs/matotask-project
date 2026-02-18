@@ -24,7 +24,7 @@ body {
 
 h1 {
     text-align: center;
-    color: rgb(147, 24, 57);
+    color: #A64452;
     animation: pulse 2s infinite ease-in-out;
 }
 
