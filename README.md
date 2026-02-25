@@ -4,7 +4,7 @@
 
 <p><b>MatoTask</b> is a simple yet effective task manager. Built with a focus on user experience, it helps users declutter their minds by organizing daily goals into an intuitive interface.</p>
 
-<p><b>Why I built this:</b> I wanted to apply everything I learned during the <a href="https://www.codedex.io/home" target="_blank">Codédex</a> JavaScript course. This project challenged me to handle DOM manipulation, state management, and persistent storage making it my proudest achievement as a web developer so far! 🌟٩(^ᗜ^ )و ´-</p>
+<p><b>Why I built this:</b> I wanted to apply everything I learned during the <a href="https://www.codedex.io/home" target="_blank">Codédex</a> JavaScript course. This project challenged me to handle DOM manipulation making it my proudest achievement as a web developer so far! 🌟٩(^ᗜ^ )و ´-</p>
 
 <nav>
 <h2>📖 Table of Contents</h2>
@@ -67,9 +67,7 @@
 <section id="final-thoughts">
 <h2>💭 Final Thoughts</h2>
 
-<p>I want to give a huge thank you to the team at <a href="https://www.codedex.io/home" target="_blank">Codédex</a> for the incredible JavaScript course. This project is the culmination of everything I’ve learned from basic variables to complex DOM manipulation.</p>
-
-<p>Building MatoTask has been an amazing journey, and I’m planning to keep working on future implementations to this application such as an eye-catching and responsive UI, a dark mode and many more features. This is just the beginning! (˶ᵔᗜᵔ˶)ﾉﾞ💖</p>
+<p>I want to give a huge thank you to the team at <a href="https://www.codedex.io/home" target="_blank">Codédex</a> for the incredible JavaScript course. This project is the culmination of everything I’ve learned from basic variables to complex DOM manipulation. (˶ᵔᗜᵔ˶)ﾉﾞ💖</p>
 </section>
 
 <section id="license">
