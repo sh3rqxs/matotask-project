@@ -59,7 +59,7 @@ setButton.addEventListener('click', () => {
 // Starts timer.
 startButton.addEventListener('click', () => {
     if (timerId !== null) return; // Prevents multiple intervals.
-    if (!timeLeft) timeLeft = 1 * 60; // Default if not set.
+    if (!timeLeft) timeLeft = 25 * 60; // Default if not set.
 
     timerId = setInterval(() => {
         timeLeft--;
@@ -82,7 +82,7 @@ stopButton.addEventListener('click', () => {
 resetButton.addEventListener('click', () => {
     clearInterval(timerId);
     timerId = null;
-    timeLeft = 1 * 60; // Back to default.
+    timeLeft = 25 * 60; // Back to default.
     updateDisplay();
 });
 
