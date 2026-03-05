@@ -23,7 +23,7 @@
         <!-- Heading section -->
       <section class="heading-container">
         <div class="heading-content">
-          <h1 id="title">MatoTask</h1> <!-- Website's title -->
+          <h1 id="title">MatoTask <img id="tomato-icon" src="assets/img/tomato-icon-1.png" width="48"></h1> <!-- Website's title -->
           <div class="highlight-box">
             <p id="random-tagline">Loading...</p> <!-- Displays a random tagline. -->
           </div>
@@ -32,24 +32,28 @@
       </section> 
       <section class="timer-container">
         <div class="timer-content">
-          <!-- Timer -->
-          <div id="timer-display"><span >25:00</span></div> <!-- Displays the deafult time. -->
           <!-- Timer settings -->
-          <div class="config">
-            <input type="number" id="minutes-input" placeholder="Min ⏱️" min="1" max="60" /> <!-- Allows the user to input the timer minutes. -->
+          <div class="timer-settings">
+            <input type="number" id="minutes-input" placeholder="Min ⏱️" min="1" max="60"> <!-- Allows the user to input the timer minutes. -->
             <button id="set-button">Set Time</button> <!-- Displays a set time button. -->
           </div>
+          <!-- Timer -->
+          <div id="timer-display"><span >25:00</span></div> <!-- Displays the deafult time. -->
           <!-- Buttons -->
           <div class="button-group">
-            <button id="start-button">Start</button> <!-- Displays a start button. -->
-            <button id="stop-button">Stop</button> <!-- Displays a stop button. -->
-            <button id="reset-button">Reset</button> <!-- Displays a reset button. -->
+            <button id="start-button"><img src="assets/img/start-icon.png" align="center" width="24"> Start</button> <!-- Displays a start button. -->
+            <button id="stop-button"><img src="assets/img/pause-icon.png" align="center" width="24"> Pause</button> <!-- Displays a stop button. -->
+            <button id="reset-button"><img src="assets/img/restart-icon.png" align="center" width="24"> Reset</button> <!-- Displays a reset button. -->
           </div>
+        </div>
+      </section>
           <!-- Task list form -->
-          <div class="task-group">
-            <form id="task-form"> <!-- Displays a form with a submit button. -->
+      <section class="task-container">
+        <div class="task-content">
+          <div class="task-form"> <!-- Displays a form with a submit button. -->
+            <form> 
               <input type="text" id="task-input" placeholder="Add a new task 📝" required /> <!-- Allows the user to input a task. -->
-              <button type="submit" id="submit-button">Add Task</button> <!-- Displays an add task button -->
+              <button type="submit" id="submit-button">Add Task</button> <!-- Displays an add task button. -->
             </form>
           </div>
           <!-- Task list -->
