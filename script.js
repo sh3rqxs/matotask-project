@@ -6,10 +6,10 @@
 document.addEventListener("DOMContentLoaded", () => {
     // -- Tagline array --
     const taglineArray = [
-        'Ketch-up on your goals. ✨',
-        'Fresh focus, delivered in slices. 🔪',
-        'Work hard, snack often. 🥗',
-        'Your focus buddy for the daily grind. 😊'
+        'Ketch-up on your goals! ✨',
+        'Fresh focus, delivered in slices 🔪',
+        'Work hard, snack often 🥗',
+        'Your focus buddy for the daily grind! 😊'
     ];
 
     // Selects a random tagline.
@@ -28,7 +28,7 @@ const startButton = document.getElementById('start-button');
 const stopButton = document.getElementById('stop-button');
 const resetButton = document.getElementById('reset-button');
 
-const taskForm = document.getElementById('task-form');
+const taskForm = document.getElementsByClassName('task-form');
 const taskInput = document.getElementById('task-input');
 const taskList = document.getElementById('task-list');
 
@@ -52,7 +52,7 @@ setButton.addEventListener('click', () => {
         timeLeft = mins * 60;
         updateDisplay();
     } else {
-        alert("Please enter minutes between 1 and 60.");
+        alert("Set a time between 1 and 60 minutes.");
     }
 });
 
@@ -67,7 +67,7 @@ startButton.addEventListener('click', () => {
         if (timeLeft <= 0) {
             clearInterval(timerId);
             timerId = null;
-            alert("Time's up! ⏰ Take a break.");
+            alert("Your timer is up!");
         }
     }, 1000);
 });
