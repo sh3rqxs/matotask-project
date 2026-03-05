@@ -77,13 +77,18 @@ body {
 
 #minutes-input {
   background: #ffffff8b;
-  border: none !important;
-  color:#aeba6f !important;
-  font-family: "Lexend", sans-serif !important;
+  border: none;
+  border-radius: 6px;
+  color:#aeba6f;
+  width: 100px;
+  height: 30px;
+  padding: 10px;
+  font-family: "Lexend", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
   font-size: 20px;
+  text-align: center;
 }
 
 #minutes-input::placeholder {
@@ -104,6 +109,13 @@ body {
   font-style: normal;
   color: #aeba6f;
   padding: 1.8rem;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 button {
@@ -133,22 +145,7 @@ button:active {
   box-shadow: 5px 5px #aeba6f;
 }
 
-.button-group {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-
-#minutes-input { 
-    width: 80px;
-    padding: 10px;
-    border: 1px solid rgb(203, 208, 213);
-    border-radius: 6px;
-    font-family: "Verdana", sans-serif;
-}
-
-
+/* Task form list section */
 
 #task-form {
     margin-top: 20px;
