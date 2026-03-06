@@ -4,8 +4,7 @@
 
 <!DOCTYPE html>
 <html lang="en"> <!-- Tells which language the content of the page is written in. -->
-
-    <!-- Head section -->
+  <!-- Head section -->
   <head>
     <meta charset="UTF-8"> <!-- Enables the website to handle a large range of characters. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes the website look good in different devices. -->
@@ -20,13 +19,10 @@
     <!-- Body section -->
   <body>
     <main>
-        <!-- Heading section -->
+      <!-- Heading section -->
       <section class="heading-container">
         <div class="heading-content">
-          <h1 id="title">MatoTask <img id="tomato-icon" src="assets/img/tomato-icon-1.png" width="48"></h1> <!-- Website's title -->
-          <div class="highlight-box">
-            <p id="random-tagline">Loading...</p> <!-- Displays a random tagline. -->
-          </div>
+          <h1 id="title">MatoTask <img id="tomato-icon" src="assets/img/tomato-icon-1.png" width="40"></h1> <!-- Website's title -->
         </div>
       <!-- Timer section -->
       </section> 
@@ -50,24 +46,31 @@
           <!-- Task list form -->
       <section class="task-container">
         <div class="task-content">
-          <div class="task-form"> <!-- Displays a form with a submit button. -->
-            <form> 
-              <input type="text" id="task-input" placeholder="Add a new task 📝" required /> <!-- Allows the user to input a task. -->
-              <button type="submit" id="submit-button">Add Task</button> <!-- Displays an add task button. -->
-            </form>
-          </div>
           <!-- Task list -->
           <div class="task-group">
             <ul id="task-list"></ul> <!-- Displays unordered task list. -->
           </div>
-          <!-- Credits -->
-          <div class="credits-group">
-            <p id="credits">Made with 💖 by shercodes</p>
-            <p>&#169;MatoTask 2026. All Rights Reserved.</p> <!-- Displays the credits of the web app. -->
+          <div class="task-form"> <!-- Displays a form with a submit button. -->
+            <div class="highlight-box">
+              <h2 id="tasks">Tasks</h2>
+              <p id="random-tagline">Loading...</p> <!-- Displays a random tagline. -->
+            </div>
+            <form id="task-form"> 
+              <input type="text" id="task-input" placeholder="Add Task" required /> <!-- Allows the user to input a task. -->
+              <button type="submit" id="submit-button"><img src="assets/img/add-task-icon.png" width="24"></button> <!-- Displays an add task button. -->
+            </form>
           </div>
         </div>
       </section>
       <script src="script.js"></script> <!-- Links to the script.js -->
     </main>
+    <!-- Footer section -->
+    <footer>
+    <!-- Credits -->
+      <div class="credits-group">
+        <p id="credits">Made with 💖 by shercodes</p>
+        <p>&#169;MatoTask 2026. All Rights Reserved.</p> <!-- Displays the credits of the web app. -->
+      </div>
+    </footer>
   </body>
 </html>
