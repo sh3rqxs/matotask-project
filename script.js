@@ -28,7 +28,7 @@ const startButton = document.getElementById('start-button');
 const stopButton = document.getElementById('stop-button');
 const resetButton = document.getElementById('reset-button');
 
-const taskForm = document.getElementsByClassName('task-form');
+const taskForm = document.getElementById('task-form');
 const taskInput = document.getElementById('task-input');
 const taskList = document.getElementById('task-list');
 
@@ -91,13 +91,35 @@ resetButton.addEventListener('click', () => {
 taskForm.addEventListener('submit', (e) => {
     e.preventDefault(); // Prevents the page from refreshing.
     
-    const taskText = '📌 ' + taskInput.value;
+    const taskText = '• ' + taskInput.value;
     
     // Creates new list item.
     const li = document.createElement('li');
     li.innerHTML = `
         ${taskText} 
-        <button class="delete-btn" style="margin-left: 10px;">X</button>
+        <button class="delete-button" style="margin-left: 10px;"><img src="assets/img/delete-icon.png" width="24"></button>
+        <style>
+          .delete-button {
+            width: 40px;
+            height: 40px;
+            background-color: #c35b5b;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .delete-button:hover {
+            transform: translateY(-10px); 
+            filter: brightness(1.1);      
+            box-shadow: 5px 5px #dee7b3; 
+          }
+
+          .delete-button:active {
+            transform: translateY();    
+            filter: brightness(0.9);      
+            box-shadow: 5px 5px #dee7b3;
+          }
+        </style>
     `;
     
     // Adds to list.
@@ -107,5 +129,5 @@ taskForm.addEventListener('submit', (e) => {
     taskInput.value = '';
 
     // Adds delete functionality.
-    li.querySelector('.delete-btn').addEventListener('click', () => li.remove());
+    li.querySelector('.delete-button').addEventListener('click', () => li.remove());
 });
