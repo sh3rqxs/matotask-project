@@ -34,6 +34,8 @@ body {
 
 #tomato-icon {
   text-align: center;
+  width: 35px;
+  max-width: 100%;
 }
 
 /* Timer section */
@@ -181,19 +183,19 @@ button:active {
   outline: none;
 }
 
-#submit-button {
+#add-task-button {
   background-color: #9ba859;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
 }
 
-#submit-button:hover {
+#add-task-button:hover {
   transform: translateY(-10px); 
   filter: brightness(1.1);      
   box-shadow: 5px 5px #dee7b3; 
 }
 
-#submit-button:active {
+#add-task-button:active {
   transform: translateY(-10px); 
   filter: brightness(1.1);      
   box-shadow: 5px 5px #dee7b3; 
@@ -208,7 +210,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 0.5rem;
   background: none;
   color: #ffffff;
 }
@@ -228,4 +230,26 @@ li {
 
 #credits {
   font-size: 18px;
+}
+
+.socials-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 0 1rem;
+}
+
+.social-links {
+  text-align: center;
+}
+
+.social-icon {
+  padding-right: 5px;
+}
+
+li a {
+  text-decoration: none;
+  color:#ffffff;
+  font-size: 16px;
 }
